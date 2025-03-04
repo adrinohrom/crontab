@@ -1,0 +1,1 @@
+/usr/sbin/logwatch/ --output mail --mailto root --detail Med --range yesterday
