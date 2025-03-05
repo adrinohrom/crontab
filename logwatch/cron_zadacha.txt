@@ -23,4 +23,4 @@
 # m h  dom mon dow   command
 #30 18 * * 5 /bin/bash/ /home/adrino/SynologyDrive/git/bash_script/prakticheskoe_2/backup.sh
 
-08 14 * * * /usr/sbin/logwatch --output mail --mailto root --detail Med --range yesterday
+00 08 * * * /usr/sbin/logwatch --output mail --mailto root --detail Med --service SSHD --service vsftpd --service xrdp --range yesterday
